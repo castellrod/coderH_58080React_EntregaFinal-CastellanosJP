@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width:100vw;
+    height: 120px;
+    background-color: darkgray;
+}
+
+button, .Marcas{
+
+    margin: 8px;
+}
+
+button, .Marcas {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover, .NavLink:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.Marcas{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 0 20px;
+    
+    width:100vw;
+    /*height: 120px;*/
+    /*background-color: darkgray;*/
+    
+}
+
+
+.ActiveOption, .Option{
+    display:flex;
+    /*flex-direction: column;*/
+    /*background-color: white;*/
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    /*padding: 1rem;*/
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: auto auto;
+    /*align-items: center;*/
+    
+  }
+  
+
+
+  .ActiveOption, .Option{
+    /* align-items: center;*/
+     
+    /* max-width: 100px;*/
+    /*align-self: auto;*/
+    
+    background-color: #3b4252;
+    color: blanchedalmond;
+  }

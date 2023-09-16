@@ -1,0 +1,35 @@
+.item-l-c, .item-list-container{
+    display: flex;
+    padding: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    align-content: center;
+    gap: 10px;
+    width: 90%;
+    height: 80%;
+    background-color: beige;
+    padding: 15px;
+    
+}
+
+.item-hijo, .item{
+   /* align-items: center;*/
+    
+   /* max-width: 100px;*/
+   align-self: auto;
+   background-color: darkolivegreen;
+}
+
+.newCho{
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.drony-icon{
+    margin-left: 10px;
+    max-height: 400px;
+}
+
+

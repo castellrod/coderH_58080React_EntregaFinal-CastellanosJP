@@ -1,0 +1,16 @@
+.ListGroup{
+    display: flex;
+    justify-content: space-between;
+
+    padding: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /* align-items:flex-start;*/
+    align-content: center;
+    gap: 10px;
+    width: 90%;
+    height: 80%;
+    background-color: beige;
+    padding: 15px;
+
+}
