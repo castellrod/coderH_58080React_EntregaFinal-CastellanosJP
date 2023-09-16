@@ -6,6 +6,9 @@ import { useContext } from 'react'
 
 import { CartContext } from '../../context/CartContext'
 
+/*import {getDocs, collection, query, where} from 'firebase/firestore'
+import {db} from '../../firebase/firebaseConfig'*/
+
 const ItemDetail = ({id, nombre, img, marca, descripcion, precio, stock}) => {
 
     const [quantityAdded, setQuantityAdded] = useState(0)
